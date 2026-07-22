@@ -2,8 +2,7 @@
 #
 # Instalação:  brew install tone-lotto/tap/fala
 #
-# Por enquanto só Apple Silicon: os binários de Mac Intel serão adicionados
-# quando o pipeline de build automático for ativado.
+# Macs com Apple Silicon e Intel. Windows ainda não.
 class Fala < Formula
   desc "Ditado por voz local e offline: segure a tecla, fale, solte"
   homepage "https://github.com/tone-lotto/falaQueEuTeEscuto"
@@ -14,6 +13,10 @@ class Fala < Formula
     on_arm do
       url "https://github.com/tone-lotto/falaQueEuTeEscuto/releases/download/v0.1.0/fala-aarch64-apple-darwin.tar.gz"
       sha256 "5347acf1afab56e12084489984dbb14857a6b6d6831ad38c2bdcbc7bdfb956a6"
+    end
+    on_intel do
+      url "https://github.com/tone-lotto/falaQueEuTeEscuto/releases/download/v0.1.0/fala-x86_64-apple-darwin.tar.gz"
+      sha256 "d03dcc18198689a333a503534ed7df561c30dcd1afc7482935e1ab982a568dea"
     end
   end
 
