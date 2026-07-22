@@ -12,7 +12,7 @@ class Fala < Formula
   on_macos do
     on_arm do
       url "https://github.com/tone-lotto/falaQueEuTeEscuto/releases/download/v0.1.0/fala-aarch64-apple-darwin.tar.gz"
-      sha256 "5347acf1afab56e12084489984dbb14857a6b6d6831ad38c2bdcbc7bdfb956a6"
+      sha256 "9289ee83fc305b486cc94ddc8379f7223c37184f08c99ff32ffc4c753a99b4c2"
     end
     on_intel do
       url "https://github.com/tone-lotto/falaQueEuTeEscuto/releases/download/v0.1.0/fala-x86_64-apple-darwin.tar.gz"
