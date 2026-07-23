@@ -1,9 +1,11 @@
 # homebrew-tap
 
-Tap do Homebrew do [falaQueEuTeEscuto](https://github.com/tone-lotto/falaQueEuTeEscuto) — ditado por voz local, grátis e offline.
+Tap do Homebrew do [Fala Que Eu Te Escuto](https://github.com/tone-lotto/falaQueEuTeEscuto) — ditado por voz local, grátis e offline.
 
 ```sh
-brew install tone-lotto/tap/fala
+brew install --cask tone-lotto/tap/fala
 ```
 
-Funciona em Macs com Apple Silicon e Intel. Para a experiência completa (app clicável, ícone na barra de menu), baixe o `fala.app` na [página de Releases](https://github.com/tone-lotto/falaQueEuTeEscuto/releases).
+Instala o app completo (ícone na barra de menu, permissão de microfone) em Aplicativos. Funciona em Macs com Apple Silicon e Intel.
+
+> Instalar por aqui evita o aviso de "app danificado" que o macOS mostra em apps baixados pelo navegador sem notarização da Apple — o Homebrew remove a marca de quarentena automaticamente.
