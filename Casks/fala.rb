@@ -19,7 +19,7 @@ cask "fala" do
   desc "Ditado por voz local e offline: segure a tecla, fale, solte"
   homepage "https://github.com/tone-lotto/falaQueEuTeEscuto"
 
-  depends_on macos: ">= :big_sur"
+  depends_on macos: :big_sur
 
   app "fala.app"
 
