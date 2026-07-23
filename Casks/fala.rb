@@ -8,11 +8,11 @@ cask "fala" do
 
   on_arm do
     url "https://github.com/tone-lotto/falaQueEuTeEscuto/releases/download/v#{version}/fala-aarch64-apple-darwin.app.zip"
-    sha256 "b12255fe3c579913ba03fe2ff008d0f6d865637c70a09d8a7f472b2d86ce23a4"
+    sha256 "0104354f34ba67785a8f87547a023974532be0cd219561b1c863de924c2c8ae4"
   end
   on_intel do
     url "https://github.com/tone-lotto/falaQueEuTeEscuto/releases/download/v#{version}/fala-x86_64-apple-darwin.app.zip"
-    sha256 "6635789cd0950a53a62c7295d95c4960182749b5ad32f4246fb936902bbc130d"
+    sha256 "0434267596d4f0ee3ca015f09fa24fc6329ddda4cb6ffbd2f071d1d1254ad2ca"
   end
 
   name "Fala Que Eu Te Escuto"
