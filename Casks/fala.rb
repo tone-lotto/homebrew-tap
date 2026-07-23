@@ -1,18 +1,18 @@
-# Instalação do app completo (com ícone na barra de menu e permissão de
-# microfone). O Homebrew remove o atributo de quarentena automaticamente, o que
-# evita o bloqueio "está danificado" do Gatekeeper em apps não notarizados.
+# Instalação do app completo, com ícone na barra de menu.
+# A partir da v0.1.1 o app é assinado e notarizado pela Apple, então abre
+# normalmente também quando baixado pelo navegador.
 #
 #   brew install --cask tone-lotto/tap/fala
 cask "fala" do
-  version "0.1.0"
+  version "0.1.1"
 
   on_arm do
     url "https://github.com/tone-lotto/falaQueEuTeEscuto/releases/download/v#{version}/fala-aarch64-apple-darwin.app.zip"
-    sha256 "0104354f34ba67785a8f87547a023974532be0cd219561b1c863de924c2c8ae4"
+    sha256 "bc883e5904286ccc904cdd4af0b382f20048304bdd4f38c40c17e1c7bd4f0e6f"
   end
   on_intel do
     url "https://github.com/tone-lotto/falaQueEuTeEscuto/releases/download/v#{version}/fala-x86_64-apple-darwin.app.zip"
-    sha256 "0434267596d4f0ee3ca015f09fa24fc6329ddda4cb6ffbd2f071d1d1254ad2ca"
+    sha256 "3efbe1b51661b49a8f74f3aa6a6e2e1eb7e17d3b7cec36e96ba66911da32f015"
   end
 
   name "Fala Que Eu Te Escuto"
